@@ -1,10 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter_login/features/authentication/data/datasources/remote/auth_api_service.dart';
-import 'package:flutter_login/features/authentication/data/models/user_model.dart';
 import 'package:flutter_login/features/authentication/domain/entities/user.dart';
 import 'package:flutter_login/features/authentication/domain/repositories/auth_repository.dart';
-import 'package:flutter_login/features/authentication/domain/repositories/user_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final _controller = StreamController<AuthenticationStatus>();

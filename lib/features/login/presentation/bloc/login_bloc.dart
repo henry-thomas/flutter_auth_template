@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_login/features/authentication/data/repositories/auth_repository_impl.dart';
 import 'package:flutter_login/features/authentication/domain/repositories/auth_repository.dart';
 import 'package:flutter_login/features/login/presentation/models/models.dart';
 import 'package:formz/formz.dart';
