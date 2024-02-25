@@ -8,7 +8,7 @@ enum AuthenticationStatus { unknown, authenticated, unauthenticated }
 abstract class AuthRepository {
   Stream<AuthenticationStatus> get status;
 
-  Future<void> logIn({
+  Future<User?> logIn({
     required String email,
     required String password,
   });
